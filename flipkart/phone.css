@@ -1,0 +1,43 @@
+body{
+ width: fit-content;
+ display: block;
+ margin: auto;
+
+ 
+}
+#searchbar{
+ width: fit-content;
+ height: 80px;
+}
+#accesszone {
+ display: flex;
+ width: 100%;
+ overflow-x: scroll;
+ 
+}
+#accesszone img{
+ height: 15vh;
+ width: 15vh;
+}
+#accesszone ::-webkit-scrollbar{
+ width: 0px;
+}
+.box img{
+ height: 10vh;
+ width: 10vh;
+}
+#container{
+ width: 100%;
+ overflow-x: scroll;
+}
+#container2 {
+ 
+ width: 100%;
+ overflow-x: scroll;
+}
+#container2::-webkit-scrollbar{
+ width: 2px;
+}
+.box{
+ display: inline;
+}
